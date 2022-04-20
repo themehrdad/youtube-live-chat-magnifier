@@ -1,0 +1,12 @@
+{
+  "name": "YouTube Live Chat Magnifier",
+  "description": "Magnify live chat in YouTube videos",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch?v=*"],
+      "js": ["jquery.min.js", "magnifier.js"]
+    }
+  ]
+}
